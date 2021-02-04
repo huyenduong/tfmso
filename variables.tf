@@ -1,7 +1,7 @@
 variable "username" {}
 variable "password" {}
 variable "url" {}
-
+variable "az_subscription_id" {}
 
 variable "tfschema" {
     type = string

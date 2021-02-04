@@ -21,8 +21,7 @@ data "mso_site" "dmz01" {
 data "mso_site" "azjeff" {
   name  = "AZ-JEFF"
 }
-
-
+# create tenant
 resource "mso_tenant" "msotf" {
   name              =  "msotf"
   display_name      =  "msotf"
@@ -34,4 +33,12 @@ resource "mso_tenant" "msotf" {
     azure_shared_account_id = var.az_subscription_id
     azure_access_type = "shared"
   }
+}
+
+# create schema
+
+resource "mso_schema" "azjeff" {
+  template_name = "azjeff"
+  name  = "azjeff"
+  tenant_id     = mso_tenant.msotf.id
 }
