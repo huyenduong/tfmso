@@ -4,6 +4,10 @@
 # .tfstate files
 *.tfstate
 *.tfstate.*
+<<<<<<< HEAD
+=======
+# tfvars
+>>>>>>> 3ec1497b7cfb24510ee2a28e47adcc68d6d26e63
 *.tfvars
 # Crash log files
 crash.log
