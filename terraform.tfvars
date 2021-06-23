@@ -1,5 +1,0 @@
-username = "admin"
-password = "ins3965!ins3965!"
-url = "https://64.104.255.6" 
-az_subscription_id = "343fd6f5-2a74-4e53-95e3-d0766750dcc3"
-az_tenant_id       = "e34b6079-b8db-43a4-8104-4768856bd06c"
